@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Rubik:ital,wght@0,300..900;1,300..900&family=Yusei+Magic&display=swap');
+
 .navbar {
   background: rgba(26, 26, 25, 0.95);
   backdrop-filter: blur(10px);
@@ -15,6 +17,7 @@
 .navbar h1 a {
   color: #F6FCDF;
   text-decoration: none;
+  font-family: "Macondo", cursive;
   font-size: 1.8rem;
   font-weight: 700;
   background: linear-gradient(135deg, #F6FCDF 0%, #859F3D 100%);
@@ -36,6 +39,7 @@
 
 .nav-links a {
   color: #F6FCDF;
+  font-family: "Rubik", sans-serif;
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem 1rem;
@@ -72,11 +76,11 @@
 }
 
 .wallet-connection p {
+  font-family: "Macondo", cursive;
   color: #859F3D;
   background: rgba(49, 81, 30, 0.2);
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  font-family: monospace;
   border: 1px solid rgba(133, 159, 61, 0.3);
   box-shadow: 0 0 10px rgba(133, 159, 61, 0.1);
 }

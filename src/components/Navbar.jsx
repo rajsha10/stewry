@@ -35,11 +35,11 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h1><Link to="/">My DApp</Link></h1>
+      <h1><Link to="/">STEWRY</Link></h1>
       <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/story-upload">Upload Story</Link>
-        <Link to="/feed">Story Feed</Link>
+        <Link to="/">Welcome</Link>
+        <Link to="/feed">Stewries</Link>
+        <Link to="/story-upload">Craft a Story</Link>
       </div>
       <div className="wallet-connection">
         {account ? (
