@@ -170,7 +170,7 @@ const Feed = () => {
               {story.hasAccess ? (
                 <div>
                   <p>{story.fullContent}</p>
-                  <p className="tips-info">Total Tips: {story.tips} AIA</p>
+                  <p className="tips-info">Total Tips: {story.tips} FLOW</p>
                 </div>
               ) : (
                 <div>
@@ -182,7 +182,7 @@ const Feed = () => {
                   >
                     {processingStoryId === story.id 
                       ? 'Processing Tip...' 
-                      : 'Tip 1.5 AIA to Unlock Full Story'}
+                      : 'Tip 1.5 FLOW to Unlock Full Story'}
                   </button>
                 </div>
               )}
