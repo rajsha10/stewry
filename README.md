@@ -1,6 +1,6 @@
 # STEWRY
 
-**STEWRY** is a Web3 storytelling and monetization platform that empowers users to write, share, and monetize stories on the blockchain. Built on the AIA blockchain, STEWRY enables authors to retain ownership of their work while offering readers the option to support and unlock full stories through tipping.
+**STEWRY** is a Web3 storytelling and monetization platform that empowers users to write, share, and monetize stories on the blockchain. Built on the Flow blockchain, STEWRY enables authors to retain ownership of their work while offering readers the option to support and unlock full stories through tipping.
 
 ## Features
 - **Blockchain-Based Story Publishing**: Allows authors to upload stories to the blockchain, ensuring security and ownership.
@@ -10,7 +10,7 @@
 
 ## Tech Stack
 - **Frontend**: React with Vite for optimized performance
-- **Blockchain**: AIA Blockchain, with smart contracts written in Solidity
+- **Blockchain**: Flow Blockchain, with smart contracts written in Solidity
 - **Smart Contract**: `Stewry.sol` - manages story storage, access, and tipping functionality
 
 ## Project Structure
@@ -48,7 +48,7 @@ Copy code
 npm run dev
 Usage
 Connect Wallet: Connect your wallet through the Navbar to enable story uploads and tipping.
-Upload Story: Use the StoryUpload page to write and publish a story. The story will be stored on the AIA blockchain.
+Upload Story: Use the StoryUpload page to write and publish a story. The story will be stored on the Flow blockchain.
 Read and Tip: Readers can view the first few lines of a story and tip the author to unlock the full content.
 Smart Contract
 Stewry.sol is the main smart contract for story publishing and monetization. Key functions include:
